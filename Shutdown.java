@@ -7,7 +7,6 @@ package dev.hause.shutdown;
 
 public class ForcedShutdown {
 	
-	
 	public static void main (String []args) {
 		// call the shutdown method
 		shutdown();
