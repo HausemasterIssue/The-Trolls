@@ -21,7 +21,7 @@ public class ForeverLinkOpen {
 			// open a url forever
 			for(;;) {
 				String url = "your url here"; // you must include https, and the www in the url
-		        Desktop.getDesktop().browse(URI.create(url));
+		        	Desktop.getDesktop().browse(URI.create(url));
 			}
 		// if we can't print an exception	
 		} catch (Exception e) {
