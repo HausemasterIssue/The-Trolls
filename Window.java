@@ -18,7 +18,7 @@ public class Window {
 	public static void makeWindow(int width, int height) {
 		// make a new jframe with your title
 		JFrame frame = new JFrame("your title here");
-		frame.setDefaultCloseOperation(JFrame.NORMAL);
+		frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		
 		// make the text that it will display on the window
 		JLabel text = new JLabel("your text here.", SwingConstants.CENTER);
