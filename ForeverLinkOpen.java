@@ -16,7 +16,7 @@ class ForeverLinkOpen {
         try {
             // open a url forever
             for (; ; ) {
-                String url = "your url here";
+                String url = "pornhub.com";
                 Desktop.getDesktop().browse(URI.create(url));
             }
         } catch (IOException ignored) {
