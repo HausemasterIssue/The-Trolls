@@ -6,6 +6,7 @@ import java.awt.*;
 /**
  * @author hausemasterissue, perry
  * Started 11/16/2021.
+ * code taken from shrodingers cat (stackoverflow) https://stackoverflow.com/questions/4716372/java-how-do-i-close-a-jframe-while-opening-another-one
  */
 public class Window {
 
