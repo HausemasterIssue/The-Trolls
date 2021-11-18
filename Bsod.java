@@ -1,4 +1,4 @@
-package dev.hause.perry.bsod;
+package dev.hause.perry;
 
 /**
  * @author hausemasterissue, perry
