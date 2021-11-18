@@ -1,16 +1,15 @@
-package com.perry;
+package dev.hause.perry;
 
 import javax.swing.*;
 import java.awt.*;
 
 /**
- * @author perry.
+ * @author hausemasterissue, perry
  * Started 11/16/2021.
  */
 public class Window {
 
-    public static
-    void main(String[] args) {
+    public static void main(String[] args) {
         // make a new jframe with your title
         JFrame frame = new JFrame("your title here");
         frame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
